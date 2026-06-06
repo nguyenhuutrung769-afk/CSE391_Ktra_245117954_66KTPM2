@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.js" defer></script>
+    <script src="main.js" defer></script>
+    <title>task list</title>
+</head>
+
+<body>
+    <main class="pt-3">
+        <div class="container">
+
+            <div class="d-flex justify-content-between pb-3">
+                <h4>task list</h1>
+                    <div class="modal fade" id="Mobangthemnhansu" aria-hidden="true"
+                        aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalToggleLabel">
+                                        Add task
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+
+
+                                    <form id="staffForm">
+                                        <div class="mb-3">
+                                            <label for="" class="form-label">task</label>
+                                            <input type="text" class="form-control" name="" id="taskname"
+                                                aria-describedby="helpId" placeholder="type your task here" />
+                                            <span id="nameError" style="color: red;"></span>
+
+                                    </form>
+                                    <div class="mb-3">
+                                        <label class="form-label">Priority</label>
+                                        <div class="d-flex gap-2">
+                                            <button type="button"
+                                                class="btn btn-outline-danger  px-3">High</button>
+                                            <button type="button"
+                                                class="btn btn-outline-warning px-3">Medium</button>
+                                            <button type="button"
+                                                class="btn btn-outline-success px-3">Low</button>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-white " type="submit">
+                                        Add
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <a class="btn btn-primary text-end" data-bs-toggle="modal" href="#Mobangthemnhansu" role="button">+ add
+                task</a>
+
+        </div>
+        <div class="card p-3 mb-2 shadow-sm">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <p class="mb-1 fw-semibold">task</p>
+                    <p class="mb-1 fw-semibold">Go to gym</p>
+                </div>
+                
+                <div>  
+                    <small class="mb-1 fw-semibold">Priority: </small>
+                    <small class="text-danger mb-1 fw-semibold">High</small>
+                </div>
+                <span class="">To Do</span>
+                <progress></progress>
+                <div>
+                    <a class="btn btn-warning btn-sm ms-2">Sửa</a>
+                    <a class="btn btn-danger btn-sm ms-1">Xóa</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card p-3 mb-2 shadow-sm">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <p class="mb-1 fw-semibold">task</p>
+                    <p class="mb-1 fw-semibold">Read a book</p>
+                </div>
+                
+                <div>  
+                    <small class="mb-1 fw-semibold">Priority: </small>
+                    <small class="text-success mb-1 fw-semibold">Low</small>
+                </div>
+                <span class="">done</span>
+                <progress class=""></progress>
+                <div>
+                    <a class="btn btn-warning btn-sm ms-2">Sửa</a>
+                    <a class="btn btn-danger btn-sm ms-1">Xóa</a>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="card p-3 mb-2 shadow-sm">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <p class="mb-1 fw-semibold">task</p>
+                    <p class="mb-1 fw-semibold">go to market</p>
+                </div>
+                
+                <div>  
+                    <small class="mb-1 fw-semibold">Priority: </small>
+                    <small class="text-warning mb-1 fw-semibold">medium</small>
+                </div>
+                <span class="">in progress</span>
+                <progress class="bar"></progress>
+                <div>
+
+                    <a class="btn btn-warning btn-sm ms-2">Sửa</a>
+                    <a class="btn btn-danger btn-sm ms-1">Xóa</a>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
