@@ -1,0 +1,32 @@
+[
+	{
+		"id": 1,
+		"task":"study",
+		"priority":"medium",
+		"progress": "in progress"
+	},
+	{
+		"id": 2,
+		"task":"go to gym",
+		"priority":"hard",
+		"progress": "To do"
+	},
+	{
+		"id": 3,
+		"task":"clean",
+		"priority":"low",
+		"progress": "done"
+	},
+	{
+		"id": 4,
+		"task":"cook",
+		"priority":"medium",
+		"progress": "in progress"
+	},
+	{
+		"id": 5,
+		"task":"do homework",
+		"priority":"medium",
+		"progress": "in progress"
+	}
+]
